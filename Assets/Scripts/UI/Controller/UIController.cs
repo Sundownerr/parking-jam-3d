@@ -49,11 +49,11 @@ namespace Game
 
             void OnFinished()
             {
+                _inGameUI.Hide();
                 level.Finished -= OnFinished;
 
                 StartCoroutine(Wait(2f, () =>
                 {
-                    _inGameUI.Hide();
                     _finishUI.Show();
                 }));
             }

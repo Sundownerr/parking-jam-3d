@@ -21,13 +21,10 @@ namespace Game
 
         public void HandleSwipe(Vector3 swipeDirection)
         {
-            var position = transform.position;
-            var forward = transform.forward;
+            var forward = transform.TransformDirection(Vector3.forward);
+            var dot = Vector3.Dot(forward.normalized, swipeDirection.normalized);
 
-            var forwardAngle = Vector3.Angle(position + forward, swipeDirection);
-            var backAngle = Vector3.Angle(position - forward, swipeDirection);
-
-            if (forwardAngle > backAngle)
+            if (dot < 0)
             {
                 MovedBackward?.Invoke();
             }

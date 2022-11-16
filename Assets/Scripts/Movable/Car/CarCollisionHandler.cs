@@ -1,4 +1,5 @@
-﻿using DG.Tweening;
+﻿using System;
+using DG.Tweening;
 using UnityEngine;
 
 namespace Game
@@ -14,18 +15,28 @@ namespace Game
 
             transform.DOPunchRotation(rotation * 7f, 0.3f, 8).SetId(transform);
 
-            var isHitFromSide = Mathf.Abs(e.DotProduct) < 0.5f;
-
-            if (isHitFromSide)
+            if (CheckIsHitFromSides(e.DotProduct))
             {
                 return;
             }
 
-            var moveDireciton = transform.forward * -e.DotProduct;
+            var moveDireciton = transform.forward * MathF.Sign(-e.DotProduct);
 
             transform.DOLocalMove(transform.localPosition + moveDireciton * 0.3f, 0.2f)
                 .SetId(transform)
                 .SetUpdate(UpdateType.Fixed);
+        }
+
+        private bool CheckIsHitFromSides(float dotProduct)
+        {
+            const float treshold = 0.9f;
+
+            if (dotProduct < 0)
+            {
+                return dotProduct > -treshold;
+            }
+
+            return dotProduct < treshold;
         }
     }
 }

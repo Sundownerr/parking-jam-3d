@@ -21,7 +21,7 @@ namespace Game
                 case TouchPhase.Began:
                     break;
                 case TouchPhase.Moved:
-                    if (touch.deltaPosition.magnitude > 1f && !isSwiped)
+                    if (touch.deltaPosition.magnitude > 3f && !isSwiped)
                     {
                         isSwiped = true;
                         FingerPressed?.Invoke(touch);

@@ -143,9 +143,9 @@ GameObject:
   - component: {fileID: 1240353939714088551}
   - component: {fileID: 2833988040897649089}
   - component: {fileID: 1883712944444827121}
-  - component: {fileID: 9046047721114319306}
   - component: {fileID: 4703564717786159863}
   - component: {fileID: 5547537362435869635}
+  - component: {fileID: 6058633429955014840}
   m_Layer: 6
   m_Name: car
   m_TagString: Untagged
@@ -260,19 +260,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collisionVFX: {fileID: 5108166189735592544}
   _moveVFX: {fileID: 6506522772518881140}
---- !u!65 &9046047721114319306
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4128763714116764535}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5482061, y: 0.63, z: 2.44}
-  m_Center: {x: 0.0018984079, y: 0.39, z: 0.007228911}
 --- !u!54 &4703564717786159863
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -306,6 +293,20 @@ MonoBehaviour:
   m_PositionUnits: 1
   m_Speed: 13
   m_Position: 0
+--- !u!136 &6058633429955014840
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4128763714116764535}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.4
+  m_Height: 2.47
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.29, z: 0}
 --- !u!1 &5663204339191960144
 GameObject:
   m_ObjectHideFlags: 0
