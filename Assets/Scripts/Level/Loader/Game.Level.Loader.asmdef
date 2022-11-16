@@ -1,0 +1,19 @@
+{
+    "name": "Game.Level.Loader",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b398ff606cc6b9748bda2e0f610c1ee6",
+        "GUID:f172b019474295647882fa1a751ac4ab",
+        "GUID:f95a85bd355d19f4996d04346b9bd82e",
+        "GUID:1c39b9df32404a94b9b2ff4b1c7bc659"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

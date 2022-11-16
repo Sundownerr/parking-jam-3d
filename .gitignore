@@ -3,3 +3,6 @@ Temp/
 Logs/
 .idea/
 UserSettings/
+build_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppRgctxTable.c
+build_BackUpThisFolder_ButDontShipItWithYourGame/
+*.apk

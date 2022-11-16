@@ -41,33 +41,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ObjectMover.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
-     <Compile Include="Assets\Scripts\CollisionListener.cs" />
-     <Compile Include="Assets\Scripts\MovingForward.cs" />
-     <Compile Include="Assets\Scripts\Movable.cs" />
-     <Compile Include="Assets\Scripts\Car.cs" />
-     <Compile Include="Assets\Scripts\Obstacle.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
-     <Compile Include="Assets\Scripts\Idle.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
-     <Compile Include="Assets\Scripts\IStateController.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
-     <Compile Include="Assets\Scripts\CollisionBackward.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-     <Compile Include="Assets\Scripts\IState.cs" />
-     <Compile Include="Assets\Scripts\Moving.cs" />
-     <Compile Include="Assets\Scripts\PlayerInputController.cs" />
      <Compile Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
-     <Compile Include="Assets\Scripts\MovingBackward.cs" />
-     <Compile Include="Assets\Scripts\Collision.cs" />
-     <Compile Include="Assets\Scripts\CollisionForward.cs" />
-     <Compile Include="Assets\Scripts\CarVFXController.cs" />
-     <Compile Include="Assets\Scripts\CollisionEvent.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Thirdparty\Meshtint Free City Lite Pack Mega Toon\PPP" />
      <None Include="Assets\Thirdparty\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -79,6 +62,8 @@
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX4 Prefabs\Electric" />
      <None Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Sword Trails\Ice" />
+     <Folder Include="Assets\Prefabs\levels" />
+     <Folder Include="Assets\Thirdparty\Vehicle_Essentials\Vehicle_Car\Vehicle_Car_Horns" />
      <Folder Include="Assets\Thirdparty\Meshtint Free City Lite Pack Mega Toon\Prefabs" />
      <Folder Include="Assets\Thirdparty\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Assets\Misc" />
@@ -107,6 +92,7 @@
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs" />
      <None Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
      <Folder Include="Assets\Thirdparty\Buttons\PNG" />
+     <Folder Include="Assets\Thirdparty\Vehicle_Essentials" />
      <None Include="Assets\Thirdparty\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Misc" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX4 Prefabs\Magic" />
@@ -119,11 +105,13 @@
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Materials\Fire" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Light" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX Prefabs\Explosions" />
+     <Folder Include="Assets\Thirdparty\Vehicle_Essentials\Vehicle_Car\Vehicle_Car_Engine" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX Prefabs\Hits" />
      <Folder Include="Assets\Scripts" />
      <None Include="Assets\Thirdparty\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Materials\Animated" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster" />
+     <Folder Include="Assets\Thirdparty\Vehicle_Essentials\Vehicle_Car\Vehicle_Car_Handbrake" />
      <Folder Include="Assets\Thirdparty\Meshtint Free City Lite Pack Mega Toon\Scenes" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Fire" />
      <Folder Include="Assets\Thirdparty\TextMesh Pro" />
@@ -132,6 +120,7 @@
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX4 Prefabs\Light" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Assets\Meshes" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX2 Prefabs\Misc" />
+     <Folder Include="Assets\Thirdparty\Vehicle_Essentials\Vehicle_Car" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Demo" />
      <Folder Include="Assets\Thirdparty" />
      <Folder Include="Assets\Thirdparty\Simple Vehicle Pack\Textures\Mobile" />
@@ -180,6 +169,7 @@
      <Folder Include="Assets\Thirdparty\Simple Vehicle Pack\Textures" />
      <None Include="Assets\Thirdparty\Poly City - Free Cartoon Pack\Readme.txt" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Electric" />
+     <Folder Include="Assets\Thirdparty\Vehicle_Essentials\Vehicle_Car\Vehicle_Car_Drive" />
      <Folder Include="Assets\Thirdparty\Meshtint Free City Lite Pack Mega Toon\Materials" />
      <Folder Include="Assets\Thirdparty\Simple Vehicle Pack\Materials" />
      <None Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
@@ -190,6 +180,7 @@
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Fire" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX3 Prefabs\Electric" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\Materials\Symbols" />
+     <Folder Include="Assets\Scenes\SampleScene" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Assets" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Sword Trails" />
      <None Include="Assets\Thirdparty\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -203,7 +194,9 @@
      <Folder Include="Assets\Scenes" />
      <None Include="Assets\Thirdparty\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX2 Prefabs\Debris Hits" />
+     <Folder Include="Assets\Prefabs\car" />
      <Folder Include="Assets\Thirdparty\Meshtint Free City Lite Pack Mega Toon" />
+     <Folder Include="Assets\Thirdparty\Vehicle_Essentials\Vehicle_Car\Vehicle_Car_Glove_Box" />
      <Folder Include="Assets\Thirdparty\TextMesh Pro\Documentation" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX (legacy)\CFX2 Prefabs\Blood" />
      <Folder Include="Assets\Thirdparty\JMO Assets\Cartoon FX Remaster\CFXR Assets\Graphics" />
@@ -833,8 +826,14 @@
      <Reference Include="System.Xml.Serialization">
      <HintPath>F:\Unities\2021.3.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>F:\Gongulus\cafe-manager\parking-jam-3d\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>F:\Gongulus\cafe-manager\parking-jam-3d\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>F:\Gongulus\cafe-manager\parking-jam-3d\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>F:\Gongulus\cafe-manager\parking-jam-3d\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -875,12 +874,6 @@
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>F:\Gongulus\cafe-manager\parking-jam-3d\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>F:\Gongulus\cafe-manager\parking-jam-3d\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Cinemachine">
-     <HintPath>F:\Gongulus\cafe-manager\parking-jam-3d\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
@@ -894,6 +887,58 @@
     <ProjectReference Include="CFXRRuntime.csproj">
       <Project>{7fa26e39-a0b9-d35e-871d-7b7a036def30}</Project>
       <Name>CFXRRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.Collision.csproj">
+      <Project>{b5ecfac1-0d35-af30-74e0-1f0bc204b4a5}</Project>
+      <Name>Game.Collision</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.UI.csproj">
+      <Project>{ce00cc85-9e58-4b2f-e202-ec359b475fca}</Project>
+      <Name>Game.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.Movable.csproj">
+      <Project>{e92bfd88-10a9-6857-69d4-a18300c649c9}</Project>
+      <Name>Game.Movable</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.Car.csproj">
+      <Project>{59887214-f69e-2c3d-2b6d-3de1f44f3d26}</Project>
+      <Name>Game.Car</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.Level.csproj">
+      <Project>{8e51f17a-0e51-a424-f37d-ed82931178f9}</Project>
+      <Name>Game.Level</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.Controls.csproj">
+      <Project>{53259999-6429-9a9e-c04a-f7f53c0165d9}</Project>
+      <Name>Game.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.Level.Loader.csproj">
+      <Project>{f1200321-bbe8-c8dc-3a34-09f29357987e}</Project>
+      <Name>Game.Level.Loader</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.Level.Triggers.csproj">
+      <Project>{de011910-118e-5922-9166-55cbd27e60b2}</Project>
+      <Name>Game.Level.Triggers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.Obstacle.csproj">
+      <Project>{d75db030-ca57-e7d1-e845-3e0fe998fed8}</Project>
+      <Name>Game.Obstacle</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.UI.Finish.csproj">
+      <Project>{488c2376-dd40-dfcf-24ff-b2a88c7487c2}</Project>
+      <Name>Game.UI.Finish</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.UI.InGame.csproj">
+      <Project>{ced8a03b-213c-5612-a36f-d437e1c0b454}</Project>
+      <Name>Game.UI.InGame</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.UI.Start.csproj">
+      <Project>{9142f614-6c3e-e19e-1345-23451d2be9a0}</Project>
+      <Name>Game.UI.Start</Name>
+    </ProjectReference>
+    <ProjectReference Include="Game.UI.Controller.csproj">
+      <Project>{d51d6980-b212-09dc-c406-f6d97544e0dd}</Project>
+      <Name>Game.UI.Controller</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

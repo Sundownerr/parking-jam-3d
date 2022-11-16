@@ -1,0 +1,19 @@
+{
+    "name": "Game.Car",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8ff745227aa209c44af105cd9ab872d5",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:bff3102ecb3179e4187384cd263de679",
+        "GUID:aa2e0f667d5ed004d8d801ad86bca747"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

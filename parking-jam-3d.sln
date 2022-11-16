@@ -1,11 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Car", "Game.Car.csproj", "{59887214-f69e-2c3d-2b6d-3de1f44f3d26}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{6d4afad5-5be7-851d-0e59-9615630e32b5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.UI.InGame", "Game.UI.InGame.csproj", "{ced8a03b-213c-5612-a36f-d437e1c0b454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Movable", "Game.Movable.csproj", "{e92bfd88-10a9-6857-69d4-a18300c649c9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{7fa26e39-a0b9-d35e-871d-7b7a036def30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Collision", "Game.Collision.csproj", "{b5ecfac1-0d35-af30-74e0-1f0bc204b4a5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{720739a0-41bb-d2a2-eb47-c412ca08da80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{7fa26e39-a0b9-d35e-871d-7b7a036def30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.UI", "Game.UI.csproj", "{ce00cc85-9e58-4b2f-e202-ec359b475fca}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Level.Loader", "Game.Level.Loader.csproj", "{f1200321-bbe8-c8dc-3a34-09f29357987e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.UI.Finish", "Game.UI.Finish.csproj", "{488c2376-dd40-dfcf-24ff-b2a88c7487c2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.UI.Controller", "Game.UI.Controller.csproj", "{d51d6980-b212-09dc-c406-f6d97544e0dd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Level.Triggers", "Game.Level.Triggers.csproj", "{de011910-118e-5922-9166-55cbd27e60b2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Obstacle", "Game.Obstacle.csproj", "{d75db030-ca57-e7d1-e845-3e0fe998fed8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Level", "Game.Level.csproj", "{8e51f17a-0e51-a424-f37d-ed82931178f9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.UI.Start", "Game.UI.Start.csproj", "{9142f614-6c3e-e19e-1345-23451d2be9a0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Controls", "Game.Controls.csproj", "{53259999-6429-9a9e-c04a-f7f53c0165d9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{1e423221-c816-e827-1eb4-5c6ac6ebbcc9}"
 EndProject
@@ -16,12 +42,38 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59887214-f69e-2c3d-2b6d-3de1f44f3d26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59887214-f69e-2c3d-2b6d-3de1f44f3d26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6d4afad5-5be7-851d-0e59-9615630e32b5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6d4afad5-5be7-851d-0e59-9615630e32b5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{720739a0-41bb-d2a2-eb47-c412ca08da80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{720739a0-41bb-d2a2-eb47-c412ca08da80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ced8a03b-213c-5612-a36f-d437e1c0b454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ced8a03b-213c-5612-a36f-d437e1c0b454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e92bfd88-10a9-6857-69d4-a18300c649c9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e92bfd88-10a9-6857-69d4-a18300c649c9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7fa26e39-a0b9-d35e-871d-7b7a036def30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7fa26e39-a0b9-d35e-871d-7b7a036def30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b5ecfac1-0d35-af30-74e0-1f0bc204b4a5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b5ecfac1-0d35-af30-74e0-1f0bc204b4a5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720739a0-41bb-d2a2-eb47-c412ca08da80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720739a0-41bb-d2a2-eb47-c412ca08da80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ce00cc85-9e58-4b2f-e202-ec359b475fca}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ce00cc85-9e58-4b2f-e202-ec359b475fca}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f1200321-bbe8-c8dc-3a34-09f29357987e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f1200321-bbe8-c8dc-3a34-09f29357987e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488c2376-dd40-dfcf-24ff-b2a88c7487c2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488c2376-dd40-dfcf-24ff-b2a88c7487c2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d51d6980-b212-09dc-c406-f6d97544e0dd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d51d6980-b212-09dc-c406-f6d97544e0dd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{de011910-118e-5922-9166-55cbd27e60b2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{de011910-118e-5922-9166-55cbd27e60b2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d75db030-ca57-e7d1-e845-3e0fe998fed8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d75db030-ca57-e7d1-e845-3e0fe998fed8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8e51f17a-0e51-a424-f37d-ed82931178f9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8e51f17a-0e51-a424-f37d-ed82931178f9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9142f614-6c3e-e19e-1345-23451d2be9a0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9142f614-6c3e-e19e-1345-23451d2be9a0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53259999-6429-9a9e-c04a-f7f53c0165d9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53259999-6429-9a9e-c04a-f7f53c0165d9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1e423221-c816-e827-1eb4-5c6ac6ebbcc9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1e423221-c816-e827-1eb4-5c6ac6ebbcc9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7187acd5-4761-e50c-4142-4e701e0e9697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
