@@ -27,7 +27,7 @@ namespace Game
                 .SetUpdate(UpdateType.Fixed);
         }
 
-        private bool CheckIsHitFromSides(float dotProduct)
+        public static bool CheckIsHitFromSides(float dotProduct)
         {
             const float treshold = 0.9f;
 

@@ -20,9 +20,8 @@ namespace Game
             
             var collisionPont = other.bounds.ClosestPoint(transform.position);
             var collisionDirection = collisionPont - transform.position;
-
-            var forward = transform.forward.normalized;
-            var dot = Vector3.Dot(forward, collisionDirection.normalized);
+            var dot = Vector3.Dot(transform.forward.normalized, collisionDirection.normalized);
+            
             var collisionEvent = new CollisionEvent(collisionDirection.normalized, collisionPont, dot, other.gameObject);
             
             if (other.gameObject.TryGetComponent<Obstacle>(out var obstacle))

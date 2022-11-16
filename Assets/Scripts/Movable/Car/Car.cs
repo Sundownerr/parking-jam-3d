@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using Cinemachine;
+﻿using Cinemachine;
 using DG.Tweening;
 using UnityEngine;
 
@@ -92,7 +91,10 @@ namespace Game
 
             if (e.GameObject.TryGetComponent<Car>(out var otherCar))
             {
-                _carSfxController.PlayOtherCarCollisionReaction();
+                if (CarCollisionHandler.CheckIsHitFromSides(e.DotProduct))
+                {
+                    _carSfxController.PlayOtherCarCollisionReaction();
+                }
             }
 
             _carSfxController.StopEngineSFX();
@@ -100,7 +102,5 @@ namespace Game
             _carCollisionHandler.HandleCollision(e);
             _carVFXController.PlayCollisionVFX(e);
         }
-        
-        
     }
 }
